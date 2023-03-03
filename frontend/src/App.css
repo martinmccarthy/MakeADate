@@ -1,0 +1,158 @@
+
+
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #FFFBE9;
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.Logo {
+  height: 100vh;
+  display: inherit;
+  flex-wrap: wrap;
+  margin-left: 0;
+  color: #3f332b;
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
+.appInformation {
+  float: left;
+  left: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.headline-text {
+  font-family: 'Gloock';
+  font-size: 50px;
+}
+
+.subtext {
+  font-family: 'Abhaya Libre';
+  font-size: 30px;
+}
+
+.headline-text-card {
+  font-family: 'Gloock';
+  font-size: 30px;
+}
+
+.subtext-card {
+  font-family: 'Abhaya Libre';
+  font-size: 20px;
+}
+
+.results {
+  height: 100vh;
+  width: 100%;
+  background-color: #CEAB93;
+  color: #FFFBE9;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 28%;
+  height: 50vh;
+  background-color: #9e7f6c;
+  padding: 5px;
+  display: inline-block;
+  padding-inline: 5px;
+  text-align: center;
+  margin-inline: 20px;
+  border-radius: 10px;
+}
+
+
+.data {
+  float: left;
+  left: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.imageContainer {
+  width: 200px;
+  height: 200px;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.button-56 {
+  margin: 0 auto;
+  align-items: center;
+  background-color: #CEAB93;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #9e7f6c;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
